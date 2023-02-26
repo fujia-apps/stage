@@ -5,9 +5,9 @@ import { Container } from './styles';
 
 export const DragOrder = () => {
   useEffect(() => {
-    new Draggable({
-      element: document.querySelector('.list'),
-    });
+    // new Draggable({
+    //   element: document.querySelector('.list'),
+    // });
   }, []);
   return (
     <Container>

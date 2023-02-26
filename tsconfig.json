@@ -12,7 +12,11 @@
     "paths": {
       "@/*": ["./src/*"],
       "assets/*": ["./src/assets/*"],
-      "pages/*": ["./src/pages/*"]
+      "pages/*": ["./src/pages/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "components/*": ["./src/components/*"],
+      "workers/*": ["./src/workers/*"],
+      "utils/*": ["./src/utils/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",

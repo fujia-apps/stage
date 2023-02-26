@@ -5,14 +5,17 @@ specifiers:
   '@tanstack/react-query-devtools': ^4.24.10
   '@tauri-apps/api': ^1.2.0
   '@tauri-apps/cli': ^1.2.2
+  '@types/lodash-es': ^4.17.6
   '@types/node': ^18.7.10
   '@types/react': ^18.0.15
   '@types/react-dom': ^18.0.6
   '@types/styled-components': ^5.1.26
+  '@types/workerpool': ^6.1.1
   '@vitejs/plugin-react': ^3.0.0
   antd: ^5.2.2
   axios: ^1.3.4
   classnames: ^2.3.2
+  lodash-es: ^4.17.21
   react: ^18.2.0
   react-dom: ^18.2.0
   react-is: ^18.2.0
@@ -22,6 +25,7 @@ specifiers:
   styled-components: ^5.3.6
   typescript: ^4.6.4
   vite: ^4.0.0
+  workerpool: ^6.4.0
 
 dependencies:
   '@tanstack/react-query': 4.24.10_biqbaboplfbrettd7655fr4n2y
@@ -29,20 +33,24 @@ dependencies:
   antd: 5.2.2_biqbaboplfbrettd7655fr4n2y
   axios: 1.3.4
   classnames: 2.3.2
+  lodash-es: 4.17.21
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
   react-router: 6.8.1_react@18.2.0
   react-router-dom: 6.8.1_biqbaboplfbrettd7655fr4n2y
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+  workerpool: 6.4.0
 
 devDependencies:
   '@tanstack/react-query-devtools': 4.24.10_636dldj5wfr5vkyyqzs5k363kq
   '@tauri-apps/cli': 1.2.3
+  '@types/lodash-es': 4.17.6
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@types/styled-components': 5.1.26
+  '@types/workerpool': 6.1.1
   '@vitejs/plugin-react': 3.1.0_vite@4.1.4
   sass: 1.58.3
   typescript: 4.9.5
@@ -830,6 +838,16 @@ packages:
       hoist-non-react-statics: 3.3.2
     dev: true
 
+  /@types/lodash-es/4.17.6:
+    resolution: {integrity: sha512-R+zTeVUKDdfoRxpAryaQNRKk3105Rrgx2CFRClIgRGaqDTdjsm8h6IYA8ir584W3ePzkZfst5xIgDwYrlh9HLg==}
+    dependencies:
+      '@types/lodash': 4.14.191
+    dev: true
+
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
+    dev: true
+
   /@types/node/18.14.1:
     resolution: {integrity: sha512-QH+37Qds3E0eDlReeboBxfHbX9omAcBCXEzswCu6jySP642jiM3cYSIkU/REqwhCUqXdonHFuBfJDiAJxMNhaQ==}
     dev: true
@@ -862,6 +880,12 @@ packages:
       '@types/hoist-non-react-statics': 3.3.1
       '@types/react': 18.0.28
       csstype: 3.1.1
+    dev: true
+
+  /@types/workerpool/6.1.1:
+    resolution: {integrity: sha512-o7oSOSEiu8u9pCRv5+1AA61HlL7ruX07NrAQS3bufWXqH0fJSwP7e/1W/PFVCOY634Xz/JLHqXJAHwpogdRvNg==}
+    dependencies:
+      '@types/node': 18.14.1
     dev: true
 
   /@vitejs/plugin-react/3.1.0_vite@4.1.4:
@@ -1312,6 +1336,10 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
     dev: true
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: false
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -2186,6 +2214,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /workerpool/6.4.0:
+    resolution: {integrity: sha512-i3KR1mQMNwY2wx20ozq2EjISGtQWDIfV56We+yGJ5yDs8jTwQiLLaqHlkBHITlCuJnYlVRmXegxFxZg7gqI++A==}
+    dev: false
 
   /yallist/3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}

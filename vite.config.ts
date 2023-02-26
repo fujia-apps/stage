@@ -30,6 +30,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       assets: '@/assets',
       pages: '@/pages',
+      components: '@/components',
+      utils: '@/utils',
+      hooks: '@/hooks',
+      workers: '@/workers',
     },
   },
 });

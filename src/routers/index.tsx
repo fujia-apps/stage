@@ -3,6 +3,7 @@ import { RouteObject } from 'react-router';
 
 import HomePage from 'pages/Home';
 import { DragOrder } from '@/pages/DragOrder';
+import { WebWorker } from '@/pages/WebWorker';
 
 const routes: RouteObject[] = [
   {
@@ -12,6 +13,10 @@ const routes: RouteObject[] = [
   {
     path: '/drag-order',
     element: <DragOrder />,
+  },
+  {
+    path: '/worker',
+    element: <WebWorker />,
   },
 ];
 
